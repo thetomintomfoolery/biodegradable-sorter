@@ -1,0 +1,45 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+.env
+.venv/
+venv/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- YOLOv8 outputs ----
+runs/
+wandb/
+mlruns/
+*.pt
+*.onnx
+*.engine
+
+# ---- Datasets (Roboflow / YOLO) ----
+dataset/
+datasets/
+Cardboard-1/
+Metal-2/
+paper-1/
+plastic-2/
+sachets-1/
+styrofoam-1/
+Default-Environment-1/
+
+# ---- Archives ----
+*.zip
+*.tar
+*.tar.gz
+
+# ---- Logs ----
+*.log
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- IDEs ----
+.vscode/
+.idea/
