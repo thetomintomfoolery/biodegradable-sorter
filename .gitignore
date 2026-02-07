@@ -9,12 +9,21 @@ venv/
 # ---- Jupyter ----
 .ipynb_checkpoints/
 
-# ---- YOLOv8 outputs ----
-wandb/
-mlruns/
+# ---- YOLOv8 outputs (except weights) ----
+runs/**
+!runs/**/weights/
+!runs/**/weights/*.pt
+
+# ---- Model files (keep selected) ----
 *.pt
+!best_fixed.pt
+
 *.onnx
 *.engine
+
+# ---- Experiment tracking ----
+wandb/
+mlruns/
 
 # ---- Datasets (Roboflow / YOLO) ----
 dataset/
