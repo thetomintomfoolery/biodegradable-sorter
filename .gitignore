@@ -10,7 +10,6 @@ venv/
 .ipynb_checkpoints/
 
 # ---- YOLOv8 outputs ----
-runs/
 wandb/
 mlruns/
 *.pt
